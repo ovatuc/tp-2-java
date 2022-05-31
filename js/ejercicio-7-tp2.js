@@ -8,3 +8,15 @@
 22
 1
 */
+
+let n = parseInt(prompt("Ingrese un numero entre 1 y 50"));
+
+if (n < 1 || n > 50);
+else {
+    for (let i = n; i >= 1; i--) {
+        for (let j = 0; j < i; j++) {
+            document.write(i);
+        }
+        document.write("<br>");
+    }
+}
